@@ -1,15 +1,20 @@
-# WQU Quantitative Proficiency Prep Pack — Study Plan
+# WQU Quantitative Proficiency Prep Pack - Study Plan
 
-## Use and status
-This is a teacher-first pack of original WQU-style practice. No question is claimed to be official. Each unit has a 30-question bank; a bank is deliberately larger than one sitting.
+## Teacher-first use and status
 
-## Official information fact box
-> **OFFICIAL INFORMATION (verify current WQU instructions):** the test is **60 questions, 2 hours, one sitting, 75% pass, up to two attempts**.
+This is a teacher-first preparation pack of original WQU-style practice, not official WQU questions. The teacher leads each cycle: **model** one representative problem, **think aloud** about the definition or rule, **guide** one similar problem, then **release** selected bank questions for timed independent work. Students mark each response as sure, unsure, or guessed; the teacher reviews misses by concept, algebra, reading, arithmetic, or time before assigning the next targeted retry. Use `answers-key.md` only after an attempt.
 
-The order, timeboxes, targets, and teaching techniques below are **recommendations**, not official WQU rules.
+Each unit has a 30-question bank. The 270 questions across nine units cannot all be completed in three hours: 270 questions in 180 minutes allows only 40 seconds per question, with no teaching, checking, or review. The session therefore samples high-yield items, uses rapid sprints, and reserves time for timed mini-mocks and a final mock/review rather than pretending every bank can be finished.
 
-## Pedagogical order: highest-yield/easiest-to-score → hardest
-1. Python fundamentals
+## Official QPT facts (separate from recommendations)
+
+The official-information statement in this pack is: the QPT is **60 questions**, **2 hours**, **one sitting**, with a **75% pass** threshold and **up to two attempts**. These are official facts to verify against current WQU instructions; they are not the teacher's time allocation or a guarantee about any practice bank.
+
+## Teacher recommendations
+
+Recommended order from highest-yield/easiest-to-score to hardest:
+
+1. Python
 2. Statistics
 3. Probability
 4. Advanced algebra
@@ -19,32 +24,41 @@ The order, timeboxes, targets, and teaching techniques below are **recommendatio
 8. Discrete mathematics
 9. Differential equations
 
-## Exact real session — 2026-09-17, Africa/Nairobi
-**22:00–01:00 (180 minutes exactly).** Each bank contains 30 questions, and **30 per unit are a bank—not all can be completed in 3h**. Sprints sample the bank.
+Use the order as a scoring-first progression, not as an official QPT weighting. In every sprint, teach the core pattern first, demonstrate one worked example, release a small representative subset, then log errors. Prioritize definitions, signs, domains, units, and quick checks. Do not spend the session trying to complete every 30-question bank.
 
-| Time | Min | Action |
+## Exact live session timeline - 2026-09-17, Africa/Nairobi
+
+**22:00-01:00 Africa/Nairobi, exactly 180 minutes.** The final block crosses midnight locally, so the end time is 01:00 on 2026-09-18.
+
+| Local time | Minutes | Teacher-led action |
 |---|---:|---|
-| 22:00–22:10 | 10 | Warmup: mental arithmetic, setup check, accuracy goal. |
-| 22:10–22:24 | 14 | Python fundamentals rapid sprint through selected bank items. |
-| 22:24–22:38 | 14 | Statistics rapid sprint: define before calculating. |
-| 22:38–22:52 | 14 | Probability rapid sprint: events, complements, trees. |
-| 22:52–23:06 | 14 | Advanced algebra rapid sprint: simplify, factor, check domains. |
-| 23:06–23:20 | 14 | Linear algebra rapid sprint: dimensions, rank, geometry. |
-| 23:20–23:34 | 14 | Differential calculus rapid sprint: rules and shape. |
-| 23:34–23:48 | 14 | Integral calculus rapid sprint: substitution, area, FTC. |
-| 23:48–00:02 | 14 | Discrete mathematics rapid sprint: logic, counting, graphs. |
-| 00:02–00:16 | 14 | Differential equations rapid sprint: classify, solve, verify. |
-| 00:16–00:28 | 12 | Timed mini-mock 1: 6 mixed questions, no notes. |
-| 00:28–00:40 | 12 | Timed mini-mock 2: 6 mixed questions; review flags. |
-| 00:40–00:52 | 12 | Full mock: 30 mixed questions under hard timing. |
-| 00:52–01:00 | 8 | Review: audit, error-log, choose next three topics. |
+| 22:00-22:10 | 10 | Warmup: mental arithmetic, setup check, and accuracy goal. |
+| 22:10-22:24 | 14 | Python rapid unit sprint: trace, data structures, complexity; sample the bank. |
+| 22:24-22:38 | 14 | Statistics rapid sprint: center/spread, inference, regression; define before calculating. |
+| 22:38-22:52 | 14 | Probability rapid sprint: events, complements, conditioning, independence, trees. |
+| 22:52-23:06 | 14 | Advanced algebra rapid sprint: simplify, factor, solve, check restrictions. |
+| 23:06-23:20 | 14 | Linear algebra rapid sprint: dimensions, rank, systems, geometry. |
+| 23:20-23:34 | 14 | Differential calculus rapid sprint: rules, slope, critical points, shape. |
+| 23:34-23:48 | 14 | Integral calculus rapid sprint: substitution, area, FTC, accumulation. |
+| 23:48-00:02 | 14 | Discrete mathematics rapid sprint: logic, counting, modular arithmetic, graphs. |
+| 00:02-00:16 | 14 | Differential equations rapid sprint: classify, separate/solve, verify. |
+| 00:16-00:28 | 12 | Timed mini-mock 1: six mixed questions, no notes; teacher records confidence. |
+| 00:28-00:40 | 12 | Timed mini-mock 2: six mixed questions, then flag rather than stall. |
+| 00:40-00:52 | 12 | Final full mock: 30 mixed questions under hard timing. |
+| 00:52-01:00 | 8 | Immediate review: audit the final mock, classify errors, choose the next three topics. |
 
-**Time check:** 10 + (9×14) + 12 + 12 + 12 + 8 = **180 minutes**.
+**Time check: 10 + (9 x 14) + 12 + 12 + 12 + 8 = 180 minutes.** The final 20 minutes are explicitly the full mock plus review. The mini-mocks and full mock are recommendations; they are not the official two-hour QPT sitting.
 
-## Teacher protocol
-Model the core idea, work one example, release selected questions, and mark each response sure/unsure/guessed. Review misses by concept, algebra, reading, arithmetic, or time. Use the key only after an attempt, then rework every miss without looking.
+## Teacher protocol for each unit sprint
 
-## Sources
+1. State the target rule and one common trap.
+2. Model one example without skipping domain, sign, or unit checks.
+3. Release a representative subset of the 30-question bank for rapid independent work.
+4. Stop on time, record sure/unsure/guessed status, and defer unresolved items.
+5. Review misses by error type, then assign a focused retry instead of rereading the whole unit.
+
+## Official source URLs retained from the existing plan
+
 - https://intercom.help/wqu/en/articles/7960358-math-statistics-and-programming-resources
 - https://www.wqu.edu/how-can-i-prepare-for-the-quantitative-proficiency-test
 - https://www.wqu.edu/media/document/wqu-mscfe-sample-questions
