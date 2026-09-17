@@ -1,0 +1,12 @@
+Date,Week,Session,Setup,Entry,Stop,Target,Planned Risk,Net P/L,R Multiple,Result,Rule Followed,Trade Number,Weekly Target,Target Status,Win Rate,Profit Factor,Notes
+,,,,,,,,,=IFERROR(I2/H2,0),,,1,150,"=IF(I2>=N2,\"ON TRACK\",\"BELOW TARGET\")","=IFERROR(COUNTIF(K:K,\"Win\")/COUNTIF(K:K,\"<>\"),0)","=IFERROR(SUMIF(K:K,\"Win\",I:I)/ABS(SUMIF(K:K,\"Loss\",I:I)),\"N/A\")",
+,,,,,,,,,=IFERROR(I3/H3,0),,,2,,,,,,
+,,,,,,,,,=IFERROR(I4/H4,0),,,3,,,,,,
+,,,,,,,,,=IFERROR(I5/H5,0),,,4,,,,,,
+,,,,,,,,,=IFERROR(I6/H6,0),,,5,,,,,,
+,,,,,,,,,=IFERROR(I7/H7,0),,,6,,,,,,
+,,,,,,,,,=IFERROR(I8/H8,0),,,7,,,,,,
+,,,,,,,,,=IFERROR(I9/H9,0),,,8,,,,,,
+,,,,,,,,,=IFERROR(I10/H10,0),,,9,,,,,,
+,,,,,,,,,=IFERROR(I11/H11,0),,,10,,,,,,
+WEEKLY REVIEW,,,,,,,,,,,,,150,"=IF(SUM(I:I)>=N2,\"ON TRACK\",\"BELOW TARGET\")","=IFERROR(COUNTIF(K:K,\"Win\")/COUNTIF(K:K,\"<>\"),0)","=IFERROR(SUMIF(K:K,\"Win\",I:I)/ABS(SUMIF(K:K,\"Loss\",I:I)),\"N/A\")",

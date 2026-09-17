@@ -1,0 +1,22 @@
+LOCAL BIZ AI KIT — 20 PROMPTS
+Replace bracketed fields. Ask for Kenyan English, KES, and a warm practical tone.
+1. SALON INSTAGRAM: Write 5 captions for [salon] promoting [service] at KES [price] in [town], under 120 words, with booking CTA and 5 local hashtags.
+2. BARBER INSTAGRAM: Create 10 captions for a Kenyan barbershop showing [fade/beard/kids cut], with KES pricing and WhatsApp CTA.
+3. GYM INSTAGRAM: Write a caption for [gym] announcing [class/offer] for [audience] in [location], with schedule, KES price, reassurance, and question.
+4. RESTAURANT INSTAGRAM: Draft 5 captions for [dish/deal] at KES [price], with hours, delivery/pick-up details, and WhatsApp CTA.
+5. REAL ESTATE INSTAGRAM: Turn [property facts] into a trustworthy Kenyan caption with location, bedrooms, tenure, KES price, viewing CTA, and availability caveat.
+6. WHATSAPP ENQUIRY: Write three replies about [service/product] including availability, KES price, location, payment options, and one next-step question.
+7. WHATSAPP LATE REPLY: Apologise for a late reply to [message] and offer the next step; give salon, barber, gym, restaurant, and agent versions.
+8. WHATSAPP BOOKING: Confirm [name], [service], [date/time], [location], and KES [deposit/balance], with friendly cancellation guidance.
+9. WHATSAPP COMPLAINT: Respond to [complaint] with empathy, ownership, remedy, and follow-up promise; do not blame or invent facts.
+10. PRICE LIST: Turn [services/prices] into a clean KES list grouped by category, with benefit descriptions and price-change note.
+11. PRICE BUNDLES: Build 5 bundles for [business] from [services], showing contents, individual total, KES bundle price, and reason to buy.
+12. PRICE AUDIT: Audit [price list] for unclear names, missing durations, KES formatting, and add-ons; return improved list and change log.
+13. GOOGLE DESCRIPTION: Write a Google Business description under 750 characters for [business] in [town], covering services, audience, differentiator, and local phrase.
+14. GOOGLE CATEGORIES: Suggest accurate primary/secondary categories and service entries for a Kenyan [business type], with brief reasons.
+15. GOOGLE REVIEWS: Write 5 ethical messages requesting an honest Google review, with link placeholder and no incentive for a positive review.
+16. PURCHASE FOLLOW-UP: Create 24-hour and 7-day follow-ups after [product/service], with satisfaction question, care tip, repeat CTA, and opt-out wording.
+17. ENQUIRY FOLLOW-UP: Write a 1/3/7-day sequence for a lead asking about [offer] but not booking; useful, non-spammy, graceful close.
+18. CONTENT PLAN: Make a 30-day plan for Kenyan [business] with 3 posts weekly and daily Stories: education, proof, offers, BTS, FAQs, visual ideas.
+19. OFFER CHECK: Review [offer, costs, price, volume], identify risks, calculate minimum viable KES price, and protect margin.
+20. PERSONAS: Create 3 personas for [business] in [town], with need, objection, channel, message angle, and Kenyan-English CTA.
