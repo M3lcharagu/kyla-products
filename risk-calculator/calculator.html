@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Risk Calculator</title>
+  <style>
+    :root { color-scheme: dark; --bg: #0b1020; --panel: #131b2f; --line: #2a3858; --text: #eef4ff; --muted: #aab8d4; --accent: #63e6be; --danger: #ff8b8b; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: radial-gradient(circle at top, #182544, var(--bg) 52%); color: var(--text); font: 16px/1.5 system-ui, -apple-system, Segoe UI, sans-serif; }
+    main { width: min(920px, 100%); margin: 0 auto; padding: 24px 16px 48px; }
+    h1, h2 { line-height: 1.15; }
+    h1 { margin-bottom: 8px; }
+    h2 { margin-top: 28px; }
+    .intro, .disclaimer { color: var(--muted); }
+    .card { background: rgba(19, 27, 47, .94); border: 1px solid var(--line); border-radius: 16px; padding: 18px; box-shadow: 0 12px 30px rgba(0,0,0,.2); }
+    form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    label { display: grid; gap: 6px; color: var(--muted); font-size: .92rem; }
+    input, select, button { width: 100%; border-radius: 10px; border: 1px solid var(--line); padding: 11px 12px; font: inherit; }
+    input, select { background: #0d1528; color: var(--text); }
+    input:focus, select:focus, button:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .actions { grid-column: 1 / -1; display: flex; gap: 10px; margin-top: 4px; }
+    button { cursor: pointer; background: var(--accent); color: #062018; border: 0; font-weight: 700; }
+    button.secondary { background: #263552; color: var(--text); }
+    #errors { min-height: 24px; margin-top: 14px; color: var(--danger); }
+    .results { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .result { background: #0d1528; border: 1px solid var(--line); border-radius: 12px; padding: 13px; }
+    .result small { display: block; color: var(--muted); margin-bottom: 4px; }
+    .result strong { font-size: 1.15rem; overflow-wrap: anywhere; }
+    .targets { margin-top: 14px; }
+    footer { color: var(--muted); font-size: .9rem; margin-top: 26px; }
+    @media (max-width: 620px) { main { padding: 18px 12px 36px; } form, .results { grid-template-columns: 1fr; } .actions { flex-direction: column; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Risk Calculator</h1>
+    <p class='intro'>Educational planning tool for position size, stop-loss risk, lot size, R multiple, and reward targets. Enter values for one hypothetical setup.</p>
+    <section class='card' aria-labelledby='inputs-title'>
+      <h2 id='inputs-title'>Inputs</h2>
+      <form id='risk-form'>
+        <label>Account balance <input id='account' type='number' min='0' step='any' value='1000' inputmode='decimal'></label>
+        <label>Risk per trade (%) <input id='riskPct' type='number' min='0' max='100' step='any' value='1' inputmode='decimal'></label>
+        <label>Direction <select id='direction'><option value='long'>Long</option><option value='short'>Short</option></select></label>
+        <label>Entry price <input id='entry' type='number' min='0' step='any' value='100' inputmode='decimal'></label>
+        <label>Stop-loss price <input id='stop' type='number' min='0' step='any' value='98' inputmode='decimal'></label>
+        <label>Target price <input id='target' type='number' min='0' step='any' value='104' inputmode='decimal'></label>
+        <label>Units per lot <input id='lotUnits' type='number' min='0' step='any' value='100' inputmode='decimal'></label>
+        <div class='actions'><button type='submit'>Calculate</button><button class='secondary' type='button' id='reset'>Reset</button></div>
+      </form>
+      <div id='errors' role='alert' aria-live='polite'></div>
+    </section>
+    <section class='card' aria-labelledby='results-title'>
+      <h2 id='results-title'>Results</h2>
+      <div class='results'>
+        <div class='result'><small>Risk amount</small><strong id='riskAmount'>—</strong></div>
+        <div class='result'><small>Stop distance</small><strong id='stopDistance'>—</strong></div>
+        <div class='result'><small>Position size in units</small><strong id='positionSize'>—</strong></div>
+        <div class='result'><small>Position size in lots</small><strong id='lotSize'>—</strong></div>
+        <div class='result'><small>Potential reward at target</small><strong id='reward'>—</strong></div>
+        <div class='result'><small>Target R multiple</small><strong id='rMultiple'>—</strong></div>
+      </div>
+      <div class='targets'>
+        <h2>Reward targets</h2>
+        <div class='results'>
+          <div class='result'><small>1R target price</small><strong id='oneR'>—</strong></div>
+          <div class='result'><small>2R target price</small><strong id='twoR'>—</strong></div>
+          <div class='result'><small>3R target price</small><strong id='threeR'>—</strong></div>
+        </div>
+      </div>
+    </section>
+    <footer><strong>Price:</strong> $9 / KSh 1,152. Personal and business use for the purchaser; no resale or redistribution. Educational only: this is not financial advice. Trading involves risk, and you must verify inputs, contract specifications, and suitability independently.</footer>
+  </main>
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const number = (id) => Number($(id).value);
+    const format = (value) => Number.isFinite(value) ? value.toLocaleString(undefined, { maximumFractionDigits: 8 }) : '—';
+    const set = (id, value) => { $(id).textContent = format(value); };
+    const clearResults = () => ['riskAmount', 'stopDistance', 'positionSize', 'lotSize', 'reward', 'rMultiple', 'oneR', 'twoR', 'threeR'].forEach((id) => { $(id).textContent = '—'; });
+
+    function calculate(event) {
+      if (event) event.preventDefault();
+      const account = number('account');
+      const riskPct = number('riskPct');
+      const entry = number('entry');
+      const stop = number('stop');
+      const target = number('target');
+      const lotUnits = number('lotUnits');
+      const direction = $('direction').value;
+      const errors = [];
+      if (!(account > 0)) errors.push('Account balance must be greater than 0.');
+      if (!(riskPct > 0 && riskPct <= 100)) errors.push('Risk percentage must be greater than 0 and no more than 100.');
+      if (!(entry > 0 && stop > 0 && target > 0)) errors.push('Entry, stop-loss, and target prices must be greater than 0.');
+      if (!(lotUnits > 0)) errors.push('Units per lot must be greater than 0.');
+      if (direction === 'long' && stop >= entry) errors.push('For a long setup, the stop-loss must be below entry.');
+      if (direction === 'short' && stop <= entry) errors.push('For a short setup, the stop-loss must be above entry.');
+      if (direction === 'long' && target <= entry) errors.push('For a long setup, the target must be above entry.');
+      if (direction === 'short' && target >= entry) errors.push('For a short setup, the target must be below entry.');
+      if (errors.length) { $('errors').textContent = errors.join(' '); clearResults(); return; }
+
+      const riskAmount = account * riskPct / 100;
+      const stopDistance = Math.abs(entry - stop);
+      const positionSize = riskAmount / stopDistance;
+      const lotSize = positionSize / lotUnits;
+      const reward = positionSize * Math.abs(target - entry);
+      const rMultiple = Math.abs(target - entry) / stopDistance;
+      const sign = direction === 'long' ? 1 : -1;
+      $('errors').textContent = '';
+      set('riskAmount', riskAmount);
+      set('stopDistance', stopDistance);
+      set('positionSize', positionSize);
+      set('lotSize', lotSize);
+      set('reward', reward);
+      $('rMultiple').textContent = `${format(rMultiple)}R`;
+      set('oneR', entry + sign * stopDistance);
+      set('twoR', entry + sign * stopDistance * 2);
+      set('threeR', entry + sign * stopDistance * 3);
+    }
+
+    $('risk-form').addEventListener('submit', calculate);
+    $('reset').addEventListener('click', () => { $('risk-form').reset(); $('errors').textContent = ''; clearResults(); });
+    calculate();
+  </script>
+</body>
+</html>
