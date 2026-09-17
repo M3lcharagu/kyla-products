@@ -1,0 +1,30 @@
+# Study Copilot: 20 ChatGPT Prompts
+
+**Price:** $10 / KSh 1,280  
+**What's inside:** 20 high-quality prompts for concept understanding, revision plans, code debugging, quiz generation, exam preparation, focus, and accountability. Replace bracketed details with your own subject and constraints.  
+**License:** Personal and business use for the purchaser. Edit and use for your own study or internal teaching workflow. No resale, redistribution, or repackaging as a standalone or competing product.
+
+## Prompts
+
+1. **Concept teacher** — Explain [concept] for a [level] learner using a plain-language overview, one analogy, a worked example, common misconceptions, and three questions to check understanding. Do not skip steps.
+2. **Socratic tutor** — Help me learn [topic] without giving the answer immediately. Ask one diagnostic question at a time, wait for my reply, then give a hint that matches my level.
+3. **Compare ideas** — Compare [concept A] and [concept B] in a table covering definition, purpose, assumptions, example, and when not to use each. End with a memory hook.
+4. **From notes to map** — Turn these notes into a hierarchical concept map in text, identify missing links, and list five questions I should ask my teacher: [paste notes].
+5. **Revision plan** — Build a [number]-day plan for [subject] before [date]. I have [minutes] per day and need [topics]. Include retrieval practice, spaced review, breaks, and a daily checkpoint.
+6. **Weak-area planner** — I scored [result] on [assessment]. Use the mistakes below to group my weak areas, rank them by likely impact, and create targeted practice for each: [mistakes].
+7. **Active recall cards** — Convert this material into [number] concise flashcards. Put one question on each front and a precise answer plus a source cue on each back. Avoid trivia: [material].
+8. **Code debugger** — Diagnose this [language] code. Explain the error, identify the smallest fix, show corrected code, and give two tests including an edge case. Do not rewrite unrelated parts: [code and error].
+9. **Code walkthrough** — Walk through this code line by line for a beginner, tracking important variable values and explaining time or space trade-offs where relevant: [code].
+10. **Quiz generator** — Create a [number]-question quiz on [topic] with a balanced mix of recall, application, and reasoning. Put answers and brief explanations after all questions.
+11. **Exam simulator** — Make a timed [duration] practice paper for [subject] at [level] using these topics: [topics]. Include marks, instructions, and a rubric; keep the answer key separate.
+12. **Mark my answer** — Grade my response against this rubric, quote the evidence for each criterion, explain one improvement, and write a stronger model answer without changing my voice: [rubric and response].
+13. **Past-paper strategy** — Analyze this question and show how to plan, allocate time, select evidence or formulas, and check the final answer. Then give me a similar question without its solution: [question].
+14. **Last-week review** — Create a seven-day exam review from this syllabus. Prioritize high-risk topics, schedule mixed practice, include sleep and break reminders, and give a 15-minute emergency version: [syllabus].
+15. **Focus sprint** — Turn this task into a 25-minute focus sprint with one clear outcome, three tiny actions, a distraction plan, and a definition of done: [task].
+16. **Accountability check-in** — Act as a supportive study accountability partner. Ask me what I planned, what I completed, what blocked me, and what is realistic next; ask one question at a time and avoid guilt.
+17. **Distraction reset** — I have [minutes] and feel [state]. Give me a two-minute reset, a single next action for [subject], and a short if-then plan for my main distraction.
+18. **Teach-back test** — Ask me to explain [concept] in my own words. Then identify gaps, ask two follow-ups, and give feedback using accurate but encouraging language.
+19. **Study method chooser** — Based on my goal, deadline, prior knowledge, and available time below, recommend a study method and explain why. Give an exact first 20-minute session: [details].
+20. **Weekly review** — Review this study log, identify patterns, celebrate evidence of progress without exaggeration, and propose three adjustments for next week: [log].
+
+**Accuracy reminder:** Use your syllabus, teacher, textbook, or official documentation to verify important facts and final answers.
