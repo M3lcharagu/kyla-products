@@ -1,0 +1,125 @@
+# 100 Social Captions for Local Businesses
+
+**Price:** $7 / KSh 896  
+**What's inside:** Exactly 100 copy-ready captions for salons, gyms, restaurants, churches, real estate, and coaches. Topics include promotions, product and service announcements, education, testimonials, FAQs, trust, engagement, CTAs, WhatsApp sales, and Instagram sales. Replace bracketed details with verified information before publishing.  
+**License:** Personal and business use for the purchaser. Edit and publish for your own business or client work. No resale, redistribution, or repackaging as a standalone or competing product.
+
+## Captions
+
+### Salons
+
+1. **[PROMOTION]** Ready for a fresh look? Book [service] at [Salon Name] for [price] until [date]. WhatsApp [number].
+2. **[SERVICE]** Meet your next go-to [service]: now available at [Salon Name]. Ask about timing and what is included.
+3. **[EDUCATION]** Protect your [hair type] with three simple habits: [tip 1], [tip 2], and [tip 3]. Save this post.
+4. **[TESTIMONIAL]** [Verified customer quote]. Thank you, [customer name], for trusting [Salon Name].
+5. **[FAQ]** How long does [service] take? Plan for about [time], depending on your hair and chosen look. Ask us first.
+6. **[TRUST]** We discuss your preferred look, timing, and care routine before we begin, so you can choose with clarity.
+7. **[ENGAGEMENT]** Choose your next look: A) [style 1] or B) [style 2]? Comment A or B.
+8. **[CTA]** WhatsApp [number] with BOOK and your preferred day to request an appointment.
+9. **[WHATSAPP SALES]** Booking is open for [date]. Send your service, preferred time, and name to [number].
+10. **[INSTAGRAM SALES]** Save this post, share it with your style partner, and tap the link in bio to request [service].
+11. **[PROMOTION]** [Service] plus [add-on] for [price] through [date]. Confirm a slot before visiting.
+12. **[SERVICE]** Looking for [result]? Ask about [service name]. We will explain inclusions, preparation, and suitability.
+13. **[EDUCATION]** Start with your goal: [goal 1] may suit [option 1], while [goal 2] may suit [option 2].
+14. **[TESTIMONIAL]** A result is personal. Read [customer name]’s honest feedback about [Salon Name].
+15. **[FAQ]** What should I bring? Bring reference photos, mention sensitivities, and follow [preparation instruction].
+16. **[TRUST]** We do not promise a one-size-fits-all result. We listen, explain options, and agree before starting.
+17. **[ENGAGEMENT]** Which beauty topic should we explain next: [topic 1], [topic 2], or [topic 3]?
+
+### Gyms
+
+18. **[PROMOTION]** Start your next training block at [Gym Name]. Ask about [offer] at [price] until [date].
+19. **[SERVICE]** New class: [class name] runs on [days] at [time]. Check the timetable before attending.
+20. **[EDUCATION]** Warm up, use a manageable load, focus on form, and rest when needed. Save this reminder.
+21. **[TESTIMONIAL]** [Verified member quote]. Thank you, [member name], for sharing your experience at [Gym Name].
+22. **[FAQ]** Do I need experience for [class]? Tell the coach your starting point so they can explain suitable options.
+23. **[TRUST]** Progress looks different for every member. We focus on clear guidance, consistent practice, and reviewable goals.
+24. **[ENGAGEMENT]** Training-day essential: water, music, a notebook, or a partner? Comment yours.
+25. **[CTA]** WhatsApp [number] with GYM for current membership options and the timetable.
+26. **[WHATSAPP SALES]** Want to visit first? Send your preferred day to [number] and ask about a tour or trial arrangement.
+27. **[INSTAGRAM SALES]** Tap the link in bio for membership details and save this post for the timetable.
+28. **[PROMOTION]** Bring a friend to [class] on [date] and ask about the current [offer]. Confirm spaces first.
+29. **[SERVICE]** Personal training enquiries are open on [days]. We begin with your goals, schedule, and experience.
+30. **[EDUCATION]** Build a routine: choose realistic sessions, add them to your calendar, and review after [period].
+31. **[TESTIMONIAL]** [Member name] says, [Verified quote]. What part of your routine are you working on?
+32. **[FAQ]** What should I wear? Choose comfortable clothing and suitable footwear; ask the coach if unsure.
+33. **[TRUST]** Ask us about a movement, class, or membership option. We will explain it before you decide.
+34. **[ENGAGEMENT]** Pick this week’s focus: strength, mobility, consistency, or recovery. Comment one focus.
+
+### Restaurants
+
+35. **[PROMOTION]** Today’s [meal or offer] is [price] until [time/date]. Call or WhatsApp [number] to order.
+36. **[SERVICE]** Now serving [dish]. Ask about ingredients, portions, and current availability before ordering.
+37. **[EDUCATION]** Curious about [ingredient]? Here is how it is used in [dish]: [verified explanation].
+38. **[TESTIMONIAL]** [Verified diner quote]. Thank you, [customer name], for dining with us.
+39. **[FAQ]** Do you offer [dietary option]? Ask before ordering so we can confirm what is currently available.
+40. **[TRUST]** Ask about ingredients, preparation, allergens, and portions so you can order with clarity.
+41. **[ENGAGEMENT]** Settle it: [dish A] or [dish B]? Comment your pick and tag your dining partner.
+42. **[CTA]** WhatsApp [number] with your order question, pickup time, and name.
+43. **[WHATSAPP SALES]** Orders are open for [date/time]. Send [order details] to [number] for confirmation.
+44. **[INSTAGRAM SALES]** See the menu through the link in bio, choose a favourite, and message questions before ordering.
+45. **[PROMOTION]** [Meal] for [price] while stock or availability lasts. Confirm before travelling.
+46. **[SERVICE]** Hosting a gathering? Ask about [catering or reservation service] at [contact].
+47. **[EDUCATION]** New to [dish]? Try [pairing] if you enjoy [flavour profile]. Ask about today’s option.
+48. **[TESTIMONIAL]** Your feedback helps us improve: [customer name] shared [verified quote].
+49. **[FAQ]** To reserve a table, send date, time, group size, and name to [contact]. We will confirm availability.
+50. **[TRUST]** If an item is unavailable, we will tell you before confirming the order.
+51. **[ENGAGEMENT]** What should return to the menu: [item 1], [item 2], or something new?
+
+### Churches
+
+52. **[ANNOUNCEMENT]** You are invited to [service or event] at [Church Name] on [date] at [time]. Details: [contact].
+53. **[INVITATION]** Bring a friend to [event] on [date]. Message [contact] with any questions.
+54. **[EDUCATION]** This week’s reflection: [topic or scripture reference]. What lesson will you carry forward?
+55. **[TESTIMONIAL]** [Verified member quote]. Thank you, [name], for sharing your experience of [community].
+56. **[FAQ]** What should a first-time visitor expect? Find service time, arrival information, and contact details here: [details].
+57. **[TRUST]** We aim to share event times, locations, and participation information clearly.
+58. **[ENGAGEMENT]** Which small-group topic would help this month: [topic 1], [topic 2], or [topic 3]?
+59. **[CTA]** Save the date for [event] and share this invitation with someone who may appreciate it.
+60. **[WHATSAPP REGISTRATION]** Registration for [event or group] is open. Send your name to [number] for next steps.
+61. **[INSTAGRAM INVITATION]** Tap the link in bio for this week’s service details, then share with your community.
+62. **[ANNOUNCEMENT]** [Ministry or group] meets [day] at [time]. Contact [name/number] for the current venue.
+63. **[EDUCATION]** Reflect on [theme] for one quiet minute, then write one action aligned with your values.
+64. **[TESTIMONIAL]** Community grows through conversation. Read [verified quote] from [name] about [Church Name].
+65. **[FAQ]** Is [event] open to visitors? Contact [number] for current attendance and registration details.
+66. **[TRUST]** Learn about an event, ask questions, and choose how you would like to participate.
+
+### Real Estate
+
+67. **[PROPERTY]** New listing: [property type] in [area] with [verified feature]. Request details from [agent/contact].
+68. **[PROMOTION]** Looking in [area] around [budget]? Send requirements to [WhatsApp number] to discuss available options.
+69. **[EDUCATION]** Before viewing, list must-haves, budget, preferred location, and questions.
+70. **[TESTIMONIAL]** [Verified client quote]. Thank you, [client name], for trusting [business name].
+71. **[FAQ]** Ask about price, location, tenure, ownership information, viewing process, and relevant fees.
+72. **[TRUST]** Property decisions deserve verified information. Review details and ask questions before proceeding.
+73. **[ENGAGEMENT]** What matters most: location, layout, outdoor space, or access to amenities?
+74. **[CTA]** WhatsApp [number] with DETAILS for the available verified brief on [property].
+75. **[WHATSAPP SALES]** Viewing requests are open for [date]. Send time, name, and property reference to [number].
+76. **[INSTAGRAM SALES]** Save this listing, share it with a buyer, and tap the link in bio to request a viewing.
+77. **[PROPERTY]** [Property reference] is available for [sale/rent] at [price]. Confirm terms and availability.
+78. **[PROMOTION]** Searching for [property type] in [area]? Book a [price or free/paid] consultation to clarify your brief.
+79. **[EDUCATION]** Compare properties using location, condition, ongoing costs, documents, and fit for your needs.
+80. **[TESTIMONIAL]** Client note: [Verified quote]. We welcome informed questions from every client.
+81. **[FAQ]** Is the displayed price final? Ask for current price, inclusions, fees, and availability.
+82. **[TRUST]** We label estimates and confirmed details clearly. Ask if you need a fact checked.
+83. **[ENGAGEMENT]** What should our next post explain: viewing prep, rental questions, buying questions, or area research?
+
+### Coaches
+
+84. **[PROMOTION]** Coaching enquiries are open for [month]. Ask about [programme] at [price] and fit for your goal.
+85. **[SERVICE]** [Workshop or programme] begins [date] and includes [verified inclusions]. Request the outline.
+86. **[EDUCATION]** Define success, choose one action, and set a review date for [goal]. What is your first action?
+87. **[TESTIMONIAL]** [Verified client quote]. Thank you, [client name], for describing your experience.
+88. **[FAQ]** Is coaching right for me? Share your goal, situation, and preferred support so we can explain the format.
+89. **[TRUST]** Coaching is a conversation, not a guarantee. We clarify scope, next steps, and your role.
+90. **[ENGAGEMENT]** What would help today: planning, a decision framework, confidence practice, or accountability?
+91. **[CTA]** WhatsApp [number] with COACHING and your preferred contact time.
+92. **[WHATSAPP SALES]** Send your goal, timeline, and preferred format to [number] for available options.
+93. **[INSTAGRAM SALES]** Tap the link in bio to request the [programme] outline and save this post.
+94. **[PROMOTION]** Book [number] sessions by [date] at [price or offer]. Review terms before reserving.
+95. **[SERVICE]** [Programme] supports [challenge] through [verified format and inclusions]. Ask questions first.
+96. **[EDUCATION]** Ask yourself: What is the smallest next action, what could block it, and when will you review?
+97. **[TESTIMONIAL]** Progress is personal. [Client name] shared: [verified feedback].
+98. **[FAQ]** After you enquire, we confirm format, timing, price, and next step so you can decide clearly.
+99. **[TRUST]** We explain what we can support and say when a request is outside our scope.
+100. **[ENGAGEMENT + CTA]** What goal are you working on this month? Comment one word, then message [number] to discuss a next step.
